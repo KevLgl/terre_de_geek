@@ -106,9 +106,14 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: #1F271B;
   height: 40px;
-
+}
+nav a img{
+  color: white;
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
 }
 
 nav ul{
@@ -118,13 +123,21 @@ nav ul{
 nav li{
   margin: 0 10px;
 }
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: grey;
+  text-decoration: none;
+}
 /* main  */
 main{
   height: 900px;
 }
 /* header */
 header{
-  background-color: green;
+  background-image: url('../img/macbook.jpg') no-repeat;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -140,23 +153,23 @@ section img{
   height: 100%;
 }
 .product1{
-  background-color: lightblue;
+  background-color: #9F9F92;
   height: 20%;
   display: flex;
 }
 .product2{
-  background-color: lightcoral;
+  background-color: #E3DBDB;
   height: 20%;
   display: flex;
 }
 .product3{
-  background-color: lightgreen;
+  background-color: #9F9F92;
   height: 20%;
   display: flex;
 }
 /* footer  */
 footer{
-  background-color: lightskyblue;
+  background-color: #E3DBDB;
   display: flex;
 }
 .maap{
@@ -174,7 +187,9 @@ iframe{
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  color: white;
 }
+
 /* ===
 =======================================================================
    Helper classes
