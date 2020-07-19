@@ -90,6 +90,8 @@ textarea {
 *{
   margin: 0;
   padding: 0;
+  
+  font-family: 'Roboto', sans-serif;
 }
 header{
   height: 22%;
@@ -110,10 +112,9 @@ nav{
   height: 40px;
 }
 nav a img{
-  color: white;
   text-decoration: none;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 100px;
 }
 
 nav ul{
@@ -137,12 +138,20 @@ main{
 }
 /* header */
 header{
-  background-image: url('../img/macbook.jpg') no-repeat;
+  background-image: url('../img/macbook.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 20%;
+}
+header h1{
+  font-size: xx-large;
+  border: 3px solid black;
+}
+header p{
+  font-size: large;
 }
 header a{
   float:right;
@@ -157,20 +166,48 @@ section img{
   height: 20%;
   display: flex;
 }
+.product1 h2{
+  font-size: small;
+  text-align: center;
+}
+.product1 a {
+  float: right;
+  text-decoration: none;
+  color: blue;
+}
 .product2{
   background-color: #E3DBDB;
   height: 20%;
   display: flex;
+}
+.product2 h2{
+  font-size: small;
+  text-align: center;
+}
+.product2 a {
+  float: right;
+  text-decoration: none;
+  color: blue;
 }
 .product3{
   background-color: #9F9F92;
   height: 20%;
   display: flex;
 }
+.product3 h2{
+  font-size: small;
+  text-align: center;
+}
+.product3 a {
+  float: right;
+  text-decoration: none;
+  color: blue;
+}
 /* footer  */
 footer{
   background-color: #E3DBDB;
   display: flex;
+  justify-content: space-around;
 }
 .maap{
   width: 40%;
@@ -188,6 +225,9 @@ iframe{
   align-items: flex-end;
   justify-content: flex-end;
   color: white;
+}
+footer .social p{
+  margin: 10px;
 }
 
 /* ===
