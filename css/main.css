@@ -151,15 +151,21 @@ header h1{
   border: 3px solid black;
 }
 header p{
-  font-size: large;
+  font-size: x-large;
+  font-weight: bold;
+  color:white;
 }
 header a{
-  float:right;
+  float: left;
+  position: relative;
 }
 /* sections */
 section img{
   width: 50%;
   height: 100%;
+}
+.price{
+  color: red;
 }
 .product1{
   background-color: #9F9F92;
