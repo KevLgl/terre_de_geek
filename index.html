@@ -20,57 +20,67 @@
   </head>
 
   <body>
-    <nav>
+    <!-- NAVBAR -->
+    <nav class="flex">
+      <div id="logo">
       <a href="index.html"><img src="img/logo2.png" alt="logo site"></a>
-      <ul>
-        <li><a href="about.html">A propos</a></li>
-        <li><a href="https://www.google.com/search?rlz=1C5CHFA_enFR906FR906&sxsrf=ALeKk02TwPZ9yomBEzn1aUSnm-T23XCXUA%3A1595188399947&ei=r6QUX8qyOY-6aa_mrPgB&q=macbook+pro&oq=macbook+pro&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIHCAAQsQMQQzIECAAQQzIKCAAQsQMQFBCHAjIECAAQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzoECAAQRzoFCAAQsQNQyw1YhhtgmRxoAHADeACAAXaIAf0EkgEEMTAuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiKxrbvi9rqAhUPXRoKHS8zCx8Q4dUDCAw&uact=5">Tous nos produits</a></li>
-        <li><a href="#">Contact</a></li>
+      </div>
+      <ul class="flex">
+      <li><a href="about.html">A propos</a></li>
+      <li><a href="https://www.google.com/search?rlz=1C5CHFA_enFR906FR906&sxsrf=ALeKk02TwPZ9yomBEzn1aUSnm-T23XCXUA%3A1595188399947&ei=r6QUX8qyOY-6aa_mrPgB&q=macbook+pro&oq=macbook+pro&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIHCAAQsQMQQzIECAAQQzIKCAAQsQMQFBCHAjIECAAQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzoECAAQRzoFCAAQsQNQyw1YhhtgmRxoAHADeACAAXaIAf0EkgEEMTAuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiKxrbvi9rqAhUPXRoKHS8zCx8Q4dUDCAw&uact=5">Tous nos produits</a></li>
+      <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main>
-      <header>
-        <h1>TERRE DE GEEK</h1>
-        <p> Expert dans notre domaine, nous vous proposons les meilleures solutions informatique</p>
-          <a href="about.html">en savoir plus...</a>
-      </header>
-      <section class="product1">
-        <img src="img/product1.jpg" alt="photo ordinateur">
-        <div>
+
+    <header class="flex">
+      <div class="bigtitle" class="flex">
+      <h1>TERRE DE GEEK</h1>
+      <p> Expert dans notre domaine, nous vous proposons les meilleures solutions informatique</p>
+      </div>  
+    </header>
+    <main>  
+      <section>
+        <h2>Les articles actuellement en solde </h2>
+        <article class="product flex" >
+          
+          <div class="imageproduct"><img src="img/product1.png" alt="photo ordinateur"></div>
+          <div class="article-description">
           <h2>MacBook Pro 15" Core i7 2,2 GHz - SSD 512 Go - RAM 16 Go - <span class="price"> 400€ </span>  </h2>
           <p> 
-            Écran Écran Retina : écran rétroéclairé par LED de 15,4 pouces (diagonale) avec technologie IPS. Résolution de 2 880 x 1 800 pixels à 220 pixels...</p>
-          <a href="https://www.backmarket.fr/macbook-pro-touch-bar-13-retina-fin-2016-core-i5-29-ghz-ssd-256-go-8-go-azerty-francais-pas-cher/25777.html?shopping=gmc&gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLOrrmuuPoWQnfJP3UxTp17vkTGQmHzt2W5z86gtljHt29nZhng_bJcaAuzvEALw_wcB">plus de détails...</a>
-        </div>
-      </section>
-      <section class="product2">
-        <div>
+          Écran Écran Retina : écran rétroéclairé par LED de 15,4 pouces (diagonale) avec technologie IPS. </p>
+          <a href="https://www.backmarket.fr/macbook-pro-touch-bar-13-retina-fin-2016-core-i5-29-ghz-ssd-256-go-8-go-azerty-francais-pas-cher/25777.html?shopping=gmc&gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLOrrmuuPoWQnfJP3UxTp17vkTGQmHzt2W5z86gtljHt29nZhng_bJcaAuzvEALw_wcB" class="btn">plus de détails...</a>
+          </div>
+        </article>
+        <article class="product flex" >
+          <div class="imageproduct"><img src="img/product2.png" alt="photo ordinateur"></div>
+          <div class="article-description">
           <h2>MacBook Pro 13" Touchbar Core i7 2,2 GHz - SSD 256 Go - RAM 8GO - <span class="price"> 400€ </span></h2>
           <p>Avec des processeurs Intel Core de 8e génération, le MacBook Pro bat des records de puissance en matière de calcul.</p>
-          <a href="https://www.backmarket.fr/macbook-pro-reconditionne.html?gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLMTha93XnLdVZ0730i7JzlXMwqu24iqte-qJDjn0UwyeX3vNEFcdYsaArOoEALw_wcB">plus de détails...</a>
-        </div>
-        <img src="img/product2.jpg" alt="photo ordinateur">
-      </section>
-      <section class="product3">
-        <img src="img/product3.jpg" alt="photo ordinateur">
-        <div>
+          <a href="https://www.backmarket.fr/macbook-pro-reconditionne.html?gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLMTha93XnLdVZ0730i7JzlXMwqu24iqte-qJDjn0UwyeX3vNEFcdYsaArOoEALw_wcB" class="btn">plus de détails...</a>
+          </div>
+        </article>
+        <article class="product flex" >
+          <div class="imageproduct"><img src="img/product3.png" alt="photo ordinateur"></div>
+          <div class="article-description">
           <h2>Macbook Air 13,3" Core 2 Duo 2.13 GHz - SSD 128 Go - RAM 2 Go - QWERTY - <span class="price"> 400€ </span> </h2>
-          <p>Apple Macbook Air Us Keyboard Macbook Air, Argent, 2,13 Ghz, Intel Core 2 Duo, 6 Mo, 2 Go, Ddr3-Sdram Apple Macbook Air Us Keyboard</p>
-          <a href="https://www.backmarket.fr/macbook-pro-reconditionne.html?gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLMTha93XnLdVZ0730i7JzlXMwqu24iqte-qJDjn0UwyeX3vNEFcdYsaArOoEALw_wcB">plus de details....</a>
-        </div>
+          <p>Apple Macbook Air Us Keyboard Macbook Air, Argent, 2,13 Ghz, Intel Core 2 Duo, 6 Mo</p>
+          <a href="https://www.backmarket.fr/macbook-pro-reconditionne.html?gclid=Cj0KCQjw3s_4BRDPARIsAJsyoLMTha93XnLdVZ0730i7JzlXMwqu24iqte-qJDjn0UwyeX3vNEFcdYsaArOoEALw_wcB" class="btn">plus de details....</a>
+          </div>
+        </article>
       </section>
-      <footer>
-        <div class="maap"> 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.9122245033204!2d1.0707991149919476!3d49.391652370965595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0dfbf4ddceef1%3A0x73a65228cf4c2fbf!2sAFPA!5e0!3m2!1sfr!2sfr!4v1595008368781!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div> 
-        <div class="social">
-          <p class="mentions">Mentions legales</p>
-          <p>fb</p>
-          <p>twitter</p>
-          <p>insta</p>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <div class="maap"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.9122245033204!2d1.0707991149919476!3d49.391652370965595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0dfbf4ddceef1%3A0x73a65228cf4c2fbf!2sAFPA!5e0!3m2!1sfr!2sfr!4v1595008368781!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div> 
+      <div class="social" class="flex">
+      <p class="mentions">Mentions legales</p>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+      </div>
+    </footer>
+    
 
 
 
