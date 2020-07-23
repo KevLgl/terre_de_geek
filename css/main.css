@@ -250,6 +250,22 @@ input{
 .ytvideo iframe{
   margin:auto;
 }
+/* PRESTATIONS */
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+td, th 
+{
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+tbody img{
+  height: 20%;
+}
 
 
 /* Dropdown Button */

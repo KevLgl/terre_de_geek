@@ -32,44 +32,54 @@
       </ul>
     </nav>
     <!-- -----------FORM-------- -->
-    <form class="flex" action="#" method="POST">
-      <!-- -----------NOM-------- -->
-      <div>
-          <label for="name">Nom : </label>
-          <input type="nom" name="name" id="name" placeholder="Entrez votre nom" required maxlength="20" minlength="2">
-      </div>
-      <!-- -------Prenom----- -->
-      <div>
-          <label for="firstname">Prenom : </label>
-          <input type="text" name="firstname" id="firstname" placeholder="Entrez votre prenom" required maxlength="20" minlength="2">
-      </div>
-      <!-- ------AGE------- -->
-      <div>
-          <label for="age">Age : </label>
-          <input type="number" name="age" id="age" placeholder="Age " required min="18" max="115">
-      </div>
-   
-      <!-- ---------Numero de telephone-------- -->
-      <div>
-          <label for="phone">Numero de telephone : </label>
-          <input type="tel" name="phone" id="phone" placeholder="Entrez votre numero de telephone" required >
-      </div>
-     <!-- ---------E-mail-------- -->
-      <div>
-        <label for="name">E-mail : </label>
-        <input type="email" name="email" id="email" placeholder="Entrez votre nom" required maxlength="100" minlength="2">
-      </div>
-     <!-- -----Objet contact----- -->
-     <div class="dropdown">
-      <button class="dropbtn">Vous voulez me contacter pour :</button>
-      <div class="dropdown-content">
-        <a href="#">Avoir des information (tarifs, prestations, autres)</a>
-        <a href="#">Vous avez une reclamation quelconque</a>
-        <a href="#">Vous desirez effectuer un partenaria</a>
-        <a href="#">Autre</a>
-      </div>
-    </div>
- </form>
+    <main>
+      <table>
+        <caption> NOS PRESTATIONS</caption>
+     
+        <thead> <!-- En-tête du tableau -->
+            <tr>
+                <th>Prestation</th>
+                <th>Tarifs</th>
+                <th>Responsable</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+     
+     
+        <tbody> <!-- Corps du tableau -->
+            <tr>
+                <td>Réparation de smartphone</td>
+                <td>De 69 à 299€</td>
+                <td><img src="img/kevin.PNG"  alt="photo of reparator"></td>
+                <td>0606060606</td>
+            </tr>
+            <tr>
+                <td>Réparation de tablette</td>
+                <td>De 69 à 399€</td>
+                <td><img src="img/kevin.PNG"  alt="photo of reparator"></td>
+                <td>0606060606</td>
+            </tr>
+            <tr>
+                <td>Réparation d'ordinateur</td>
+                <td>De 39 à 499€</td>
+                <td><img src="img/kevin.PNG"  alt="photo of reparator"></td>
+                <td>0606060606</td>
+            </tr>
+            <tr>
+                <td>Commande spéciales</td>
+                <td>De 69 à 299€</td>
+                <td><img src="img/kevin.PNG"  alt="photo of reparator"></td>
+                <td>0606060606</td>
+            </tr>
+            <tr>
+                <td>Impréssion 3D</td>
+                <td>De 5 à 299€</td>
+                <td><img src="img/kevin.PNG"  alt="photo of reparator"></td>
+                <td>0606060606</td>
+            </tr>
+        </tbody>
+     </table>
+    </main>
 
 
 
