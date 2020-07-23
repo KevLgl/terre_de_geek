@@ -32,16 +32,16 @@
       </ul>
     </nav>
     <!-- -----------FORM-------- -->
-    <form action="#" method="POST">
+    <form class="flex" action="#" method="POST">
       <!-- -----------NOM-------- -->
       <div>
           <label for="name">Nom : </label>
-          <input type="text" name="name" id="name" placeholder="Entrez votre nom" required maxlength="100" minlength="2">
+          <input type="nom" name="name" id="name" placeholder="Entrez votre nom" required maxlength="20" minlength="2">
       </div>
       <!-- -------Prenom----- -->
       <div>
           <label for="firstname">Prenom : </label>
-          <input type="text" name="firstname" id="firstname" placeholder="Entrez votre prenom" required maxlength="50" minlength="2">
+          <input type="text" name="firstname" id="firstname" placeholder="Entrez votre prenom" required maxlength="20" minlength="2">
       </div>
       <!-- ------AGE------- -->
       <div>
@@ -52,12 +52,12 @@
       <!-- ---------Numero de telephone-------- -->
       <div>
           <label for="phone">Numero de telephone : </label>
-          <input type="number" name="phone" id="phone" placeholder="Entrez votre numero de telephone" required >
+          <input type="tel" name="phone" id="phone" placeholder="Entrez votre numero de telephone" required >
       </div>
      <!-- ---------E-mail-------- -->
       <div>
-        <label for="name">Nom : </label>
-        <input type="text" name="name" id="name" placeholder="Entrez votre nom" required maxlength="100" minlength="2">
+        <label for="name">E-mail : </label>
+        <input type="email" name="email" id="email" placeholder="Entrez votre nom" required maxlength="100" minlength="2">
       </div>
      <!-- -----Objet contact----- -->
      <div class="dropdown">
@@ -69,7 +69,7 @@
         <a href="#">Autre</a>
       </div>
     </div>
- 
+ </form>
 
 
 
