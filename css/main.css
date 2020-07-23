@@ -136,7 +136,7 @@ header{
   background-image: url('../img/macbook.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 50vh;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -156,21 +156,32 @@ header p{
 }
 
 /* sections */
+
 article{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 80vh;
 }
-  
+section{
+  height: auto;
+
+}  
 
 h2{
   text-align: center;
 }
 .imageproduct{
-  margin:2em;
+  height: 50%;
+  width: 80%;
 }
-article img{
-  width: 50%;
+.article-description{
+  margin:5em;
+  height: 50%;
+  width: 100%;
+}
+article .imageproduct img{
+  width: 100%;
   height: 100%;
 }
 .price{
@@ -178,7 +189,8 @@ article img{
 }
 .product{
   background-color: #9F9F92;
-  padding: 10px;
+  padding: 3em;
+
 }
 
 .product h2{
@@ -187,15 +199,6 @@ article img{
 }
 .product p{
   padding: 10px;
-}
-.imageproduct{
-  width: 50%;
-  height: auto;
-}
-.imageproduct img{
-  height:auto;
-  width:30vh;
-  margin:auto;
 }
 .product a{
   text-decoration: none;
@@ -209,6 +212,7 @@ article img{
 /* footer  */
 footer{
   background-color: #E3DBDB;
+  height: 30vh;
   padding: 20px;
 }
 .maap{
@@ -245,6 +249,7 @@ footer .social p{
   article{
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-size: 1.2em;
   }
   .avisclient{
@@ -256,6 +261,7 @@ footer .social p{
   .product a{
     font-size: 1em;
   }
+
 
 @media screen and (min-width:992px){
 
