@@ -89,6 +89,9 @@ textarea {
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+.underline{
+  text-decoration: underline;
+}
 
 /************==============================utility classes==============================********************/
 .flex{
@@ -97,7 +100,8 @@ textarea {
 .btn{
   padding: 3px;
   border-radius: 3px;
-  border: 1px solid black;
+  border: 1px solid brown;
+  color: brown;
 }
 /*  ==============================NAV============================== */
 nav{
@@ -173,6 +177,7 @@ padding: 2em;
 background-color: #E3DBDB;
 border-radius: 1em;
 font-size: small;
+position: relative;
 }
 .imageproduct{
   height: 30%;
@@ -188,6 +193,18 @@ font-size: small;
 }
 .avisclient{
   display: none;
+}
+.oldprice{
+  color: red;
+  text-decoration: line-through;
+}
+.newprice{
+  color: green;
+}
+article a{
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
 }
 
 
@@ -324,7 +341,6 @@ header .bigtitle p{
   font-size: 3em;
 }
  /*  ==============================SECTIONS============================== */
-
  article{
   height: 40vh;
   justify-content: center;
