@@ -103,6 +103,10 @@ textarea {
   border: 1px solid brown;
   color: brown;
 }
+.bgblack{
+  background-color: #1F271B;
+  color: white;
+}
 /*  ==============================NAV============================== */
 nav{
   justify-content: space-between;
@@ -245,7 +249,7 @@ input{
   height: 3vh;
 }
 
-/*  ==============================FORM============================== */
+/*  ==============================ABOUT============================== */
 
 .ytvideo{
   width: 80%;
@@ -277,6 +281,7 @@ td, th
 tbody img{
   height: 20%;
 }
+
 
 
 /*  ==============================DROPDOWN BUTTON============================== */
