@@ -245,13 +245,22 @@ input{
   height: 3vh;
 }
 
-/* ABOUT */
+/*  ==============================FORM============================== */
+
 .ytvideo{
-  width: 100%;
+  width: 80%;
+  margin: 2em auto;
 }
-.ytvideo iframe{
-  margin:auto;
+.textabout{
+width: 80%;
+margin: 1em auto;
+padding: 2em;
+background-color: #E3DBDB;
+border-radius: 1em;
+font-size: medium;
 }
+
+
 /*  ==============================PRESTATIONS============================== */
 table
 {
@@ -338,7 +347,7 @@ header .bigtitle h1{
   font-size: 5em;
 }
 header .bigtitle p{
-  font-size: 3em;
+  font-size: 2em;
 }
  /*  ==============================SECTIONS============================== */
  article{
