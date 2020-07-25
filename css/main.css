@@ -90,7 +90,7 @@ textarea {
   font-family: 'Roboto', sans-serif;
 }
 
-/* utility classes */
+/************==============================utility classes==============================********************/
 .flex{
   display: flex;
 }
@@ -99,7 +99,7 @@ textarea {
   border-radius: 3px;
   border: 1px solid black;
 }
-/* nav */
+/*  ==============================NAV============================== */
 nav{
   justify-content: space-between;
   align-items: center;
@@ -131,13 +131,13 @@ nav ul li a:hover{
 }
 
 
-/* header */
+/*  ==============================HEADER============================== */
 header{
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 70vh;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -157,9 +157,39 @@ header p{
   text-align: center;
 }
 
-/* sections */
-
+/*  ==============================SECTIONS============================== */
+h2{
+  font-size: medium;
+  text-align: center;
+  margin: 1em;
+}
 article{
+height: 70vh;
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 1em auto;
+padding: 2em;
+background-color: red;
+border-radius: 1em;
+font-size: small;
+}
+.imageproduct{
+  height: 30%;
+  width: 80%;
+}
+.imageproduct img{
+  width: 100%;
+  height: 100%;
+}
+.article-description{
+  height: 30%;
+  width: 80%;
+}
+
+
+/* article{
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -167,7 +197,6 @@ article{
 }
 section{
   height: auto;
-
 }  
 
 h2{
@@ -197,10 +226,9 @@ article .imageproduct img{
 .product{
   background-color: #9F9F92;
   padding: 3em;
+} */
 
-}
-
-.product h2{
+/* .product h2{
   font-size: 1em;
   text-align: center;
 }
@@ -215,8 +243,8 @@ article .imageproduct img{
 }
 .avisclient{
   display: none;
-}
-/* footer  */
+} */
+/*  ==============================FOOTER============================== */
 footer{
   background-color: #E3DBDB;
   height: 30vh;
@@ -241,7 +269,7 @@ footer iframe{
   height: auto;
   width: 70%;
 }
-/* ---------------FORM------------- */
+/*  ==============================FORM============================== */
 form{
   height: 50vh;
   flex-direction: column;
@@ -259,7 +287,7 @@ input{
 .ytvideo iframe{
   margin:auto;
 }
-/* PRESTATIONS */
+/*  ==============================PRESTATIONS============================== */
 table
 {
     border-collapse: collapse;
@@ -277,7 +305,7 @@ tbody img{
 }
 
 
-/* Dropdown Button */
+/*  ==============================DROPDOWN BUTTON============================== */
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -322,39 +350,38 @@ tbody img{
 /* MEDIA QUERIES */
 
 @media screen and (min-width:576px){
-  
 }
 @media screen and (min-width:768px){
-  /* NAV */
+/*  ==============================NAV============================== */
   nav li{
     font-size: 1.8em;
     margin: 0 1em;
   }
-  /* HEADER */
+/*  ==============================HEADER============================== */
 
 
-  /* SECTIONS */
-  article{
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-  }
-  .avisclient{
-    display: block;
-  }
-  .product h2{
-    font-size: 1.5em;
-  }
-  .product a{
-    font-size: 1em;
-  }
+ /*  ==============================SECTIONS============================== */
+ article{
+  height: 40vh;
+  justify-content: center;
+  flex-direction: row;
+ }
+ .imageproduct{
+  height: 60%;
+  width: 45%;
+  margin: 1em;
+ }
+ .article-description{
+  height: 60%;
+  width: 45%;
+ }
+
 }
 @media screen and (min-width:992px){
 
 }
 @media screen and (min-width:1200px){
-  /*  */
+  
 }
 /* ===
 =======================================================================
