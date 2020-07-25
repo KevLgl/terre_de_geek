@@ -144,8 +144,7 @@ header{
 }
 
 header .bigtitle h1{
-  text-align: center;
-  justify-content: center;
+  text-align: center; 
   font-size: xx-large;
   border: 3px solid white;
   color: white;
@@ -187,63 +186,11 @@ font-size: small;
   height: 30%;
   width: 80%;
 }
-
-
-/* article{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-}
-section{
-  height: auto;
-}  
-
-h2{
-  text-align: center;
-  margin: 3vh;
-}
-.imageproduct{
-  height: 50%;
-  width: 80%;
-}
-.article-description{
-  margin:5em;
-  height: 50%;
-  width: 100%;
-}
-article .imageproduct img{
-  width: 100%;
-  height: 80%;
-}
-.oldprice{
-  color: red;
-  text-decoration: line-through;
-}
-.newprice{
-  color: green;
-}
-.product{
-  background-color: #9F9F92;
-  padding: 3em;
-} */
-
-/* .product h2{
-  font-size: 1em;
-  text-align: center;
-}
-.product p{
-  padding: 10px;
-}
-.product a{
-  text-decoration: none;
-  color: blue;
-  font-size: 0.7em;
-  background-color:grey;  
-}
 .avisclient{
   display: none;
-} */
+}
+
+
 /*  ==============================FOOTER============================== */
 footer{
   color: white;
@@ -352,7 +299,7 @@ tbody img{
 
 @media screen and (min-width:351px){
   article{
-    height: 50vh;
+    height: 55vh;
   }
   .article-description{
     height: 40%;
@@ -370,9 +317,14 @@ tbody img{
     margin: 0 1em;
   }
 /*  ==============================HEADER============================== */
-
-
+header .bigtitle h1{
+  font-size: 5em;
+}
+header .bigtitle p{
+  font-size: 3em;
+}
  /*  ==============================SECTIONS============================== */
+
  article{
   height: 40vh;
   justify-content: center;
@@ -387,7 +339,9 @@ tbody img{
   height: 60%;
   width: 45%;
  }
-
+ .avisclient{
+  display: block;
+}
 }
 @media screen and (min-width:992px){
 
