@@ -357,8 +357,11 @@ header .bigtitle p{
   font-size: 2em;
 }
  /*  ==============================SECTIONS============================== */
+ main h2{
+   font-size: 2em;
+ }
  article{
-  height: 40vh;
+  height: 50vh;
   justify-content: center;
   flex-direction: row;
  }
@@ -385,6 +388,7 @@ section{
 }
  article{
   width: 40%;
+  height: 60vh;
 }
 }
 /* ===
