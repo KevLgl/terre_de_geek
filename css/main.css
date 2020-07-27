@@ -139,7 +139,7 @@ nav ul li a:hover{
 }
 
 
-/*  ==============================HEADER============================== */
+/*  ==============================HEADER=============================== */
 header{
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@ header p{
   text-align: center;
 }
 
-/*  ==============================SECTIONS============================== */
+/*  ==============================SECTIONS=============================== */
 h2{
   font-size: medium;
   text-align: center;
@@ -361,7 +361,7 @@ header .bigtitle p{
    font-size: 2em;
  }
  article{
-  height: 50vh;
+  height: 60vh;
   justify-content: center;
   flex-direction: row;
  }
