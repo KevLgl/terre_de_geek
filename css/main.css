@@ -361,7 +361,7 @@ header .bigtitle p{
    font-size: 2em;
  }
  article{
-  height: 50vh;
+  height: 60vh;
   justify-content: center;
   flex-direction: row;
  }
